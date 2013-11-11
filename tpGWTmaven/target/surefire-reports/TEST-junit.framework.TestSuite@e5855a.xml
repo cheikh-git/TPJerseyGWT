@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="1" time="0.018" errors="0" skipped="0" tests="1" name="junit.framework.TestSuite@e5855a">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/opt/sun-jdk-1.6.0.31/jre/lib/i386"/>
+    <property name="java.vm.version" value="20.6-b01"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="surefire.reports" value="/ws/13012567/tpGWTmaven/target/surefire-reports"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/ws/13012567/tpGWTmaven"/>
+    <property name="java.runtime.version" value="1.6.0_31-b04"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/opt/sun-jdk-1.6.0.31/jre/lib/endorsed"/>
+    <property name="os.arch" value="i386"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.jnu.encoding" value="ISO-8859-15"/>
+    <property name="java.library.path" value="/opt/sun-jdk-1.6.0.31/jre/lib/i386/server:/opt/sun-jdk-1.6.0.31/jre/lib/i386:/opt/sun-jdk-1.6.0.31/jre/../lib/i386:/opt/sun-jdk-1.6.0.31/jre/lib/i386/client:/opt/sun-jdk-1.6.0.31/jre/lib/i386:/usr/X11R6/lib:/usr/local/lib:/usr/lib/ocaml/llvm:/usr/local/ns-allinone-2.34/otcl-1.13:/usr/local/ns-allinone-2.34/lib:/usr/java/packages/lib/i386:/lib:/usr/lib"/>
+    <property name="gwt.args" value="-out target/www-test -runStyle Manual:1 "/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Tiered Compilers"/>
+    <property name="os.version" value="3.2.1-gentoo-r2"/>
+    <property name="user.home" value="/private/student/7/67/13012567"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="ISO-8859-15"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="13012567"/>
+    <property name="java.class.path" value="/ws/13012567/tpGWTmaven/src/main/java:/ws/13012567/tpGWTmaven/target/generated-sources/gwt:/ws/13012567/tpGWTmaven/src/main/resources:/ws/13012567/tpGWTmaven/target/testGWTmaven-1.0-SNAPSHOT/WEB-INF/classes:/ws/13012567/tpGWTmaven/src/test/java:/ws/13012567/tpGWTmaven/src/test/resources:/ws/13012567/tpGWTmaven/target/test-classes:/private/student/7/67/13012567/.m2/repository/com/google/gwt/gwt-servlet/2.4.0/gwt-servlet-2.4.0.jar:/private/student/7/67/13012567/.m2/repository/com/google/gwt/gwt-user/2.4.0/gwt-user-2.4.0.jar:/private/student/7/67/13012567/.m2/repository/junit/junit/4.7/junit-4.7.jar:/private/student/7/67/13012567/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar:/private/student/7/67/13012567/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA-sources.jar:/private/student/7/67/13012567/.m2/repository/com/smartgwt/smartgwt/3.0/smartgwt-3.0.jar:/private/student/7/67/13012567/.m2/repository/org/codehaus/mojo/gwt-maven-plugin/2.4.0/gwt-maven-plugin-2.4.0.jar:/private/student/7/67/13012567/.m2/repository/org/apache/maven/surefire/surefire-api/2.4.3/surefire-api-2.4.3.jar:/private/student/7/67/13012567/.m2/repository/com/google/gwt/gwt-dev/2.4.0/gwt-dev-2.4.0.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="/opt/sun-jdk-1.6.0.31/jre"/>
+    <property name="sun.java.command" value="org.codehaus.mojo.gwt.test.MavenTestRunner fr.istic.client.GwtTestFirstGWT"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="fr"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_31"/>
+    <property name="java.ext.dirs" value="/opt/sun-jdk-1.6.0.31/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/opt/sun-jdk-1.6.0.31/jre/lib/resources.jar:/opt/sun-jdk-1.6.0.31/jre/lib/rt.jar:/opt/sun-jdk-1.6.0.31/jre/lib/sunrsasign.jar:/opt/sun-jdk-1.6.0.31/jre/lib/jsse.jar:/opt/sun-jdk-1.6.0.31/jre/lib/jce.jar:/opt/sun-jdk-1.6.0.31/jre/lib/charsets.jar:/opt/sun-jdk-1.6.0.31/jre/lib/modules/jdk.boot.jar:/opt/sun-jdk-1.6.0.31/jre/classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.004" classname="junit.framework.TestSuite$1" name="warning">
+    <failure message="Exception in constructor: testGreetingService (java.lang.Error: Unresolved compilation problems: 
+	The import fr.istic.client.GreetingServiceAsync cannot be resolved
+	GreetingServiceAsync cannot be resolved to a type
+	The method create(Class&lt;?&gt;) from the type GWT refers to the missing type GreetingServiceAsync
+
+	at fr.istic.client.GwtTestFirstGWT.&lt;init&gt;(GwtTestFirstGWT.java:9)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at junit.framework.TestSuite.createTest(TestSuite.java:61)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:283)
+	at junit.framework.TestSuite.&lt;init&gt;(TestSuite.java:146)
+	at junit.framework.TestSuite.&lt;init&gt;(TestSuite.java:175)
+	at junit.runner.BaseTestRunner.getTest(BaseTestRunner.java:117)
+	at junit.textui.TestRunner.start(TestRunner.java:179)
+	at org.codehaus.mojo.gwt.test.MavenTestRunner.main(MavenTestRunner.java:63)
+)" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Exception in constructor: testGreetingService (java.lang.Error: Unresolved compilation problems: 
+	The import fr.istic.client.GreetingServiceAsync cannot be resolved
+	GreetingServiceAsync cannot be resolved to a type
+	The method create(Class&lt;?&gt;) from the type GWT refers to the missing type GreetingServiceAsync
+
+	at fr.istic.client.GwtTestFirstGWT.&lt;init&gt;(GwtTestFirstGWT.java:9)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at junit.framework.TestSuite.createTest(TestSuite.java:61)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:283)
+	at junit.framework.TestSuite.&lt;init&gt;(TestSuite.java:146)
+	at junit.framework.TestSuite.&lt;init&gt;(TestSuite.java:175)
+	at junit.runner.BaseTestRunner.getTest(BaseTestRunner.java:117)
+	at junit.textui.TestRunner.start(TestRunner.java:179)
+	at org.codehaus.mojo.gwt.test.MavenTestRunner.main(MavenTestRunner.java:63)
+)
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.TestSuite$1.runTest(TestSuite.java:97)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+	at junit.framework.TestSuite.run(TestSuite.java:227)
+	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+	at junit.framework.TestSuite.run(TestSuite.java:227)
+	at org.codehaus.mojo.gwt.test.MavenTestRunner.doRun(MavenTestRunner.java:105)
+	at junit.textui.TestRunner.start(TestRunner.java:180)
+	at org.codehaus.mojo.gwt.test.MavenTestRunner.main(MavenTestRunner.java:63)
+</failure>
+  </testcase>
+</testsuite>

@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: junit.framework.TestSuite@e5855a
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec <<< FAILURE!
+warning(junit.framework.TestSuite$1)  Time elapsed: 0.008 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Exception in constructor: testGreetingService (java.lang.Error: Unresolved compilation problems: 
+	The import fr.istic.client.GreetingServiceAsync cannot be resolved
+	GreetingServiceAsync cannot be resolved to a type
+	The method create(Class<?>) from the type GWT refers to the missing type GreetingServiceAsync
+
+	at fr.istic.client.GwtTestFirstGWT.<init>(GwtTestFirstGWT.java:9)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at junit.framework.TestSuite.createTest(TestSuite.java:61)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:283)
+	at junit.framework.TestSuite.<init>(TestSuite.java:146)
+	at junit.framework.TestSuite.<init>(TestSuite.java:175)
+	at junit.runner.BaseTestRunner.getTest(BaseTestRunner.java:117)
+	at junit.textui.TestRunner.start(TestRunner.java:179)
+	at org.codehaus.mojo.gwt.test.MavenTestRunner.main(MavenTestRunner.java:63)
+)
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.TestSuite$1.runTest(TestSuite.java:97)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:110)
+	at junit.framework.TestResult.runProtected(TestResult.java:128)
+	at junit.framework.TestResult.run(TestResult.java:113)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+	at junit.framework.TestSuite.run(TestSuite.java:227)
+	at junit.framework.TestSuite.runTest(TestSuite.java:232)
+	at junit.framework.TestSuite.run(TestSuite.java:227)
+	at org.codehaus.mojo.gwt.test.MavenTestRunner.doRun(MavenTestRunner.java:105)
+	at junit.textui.TestRunner.start(TestRunner.java:180)
+	at org.codehaus.mojo.gwt.test.MavenTestRunner.main(MavenTestRunner.java:63)
+

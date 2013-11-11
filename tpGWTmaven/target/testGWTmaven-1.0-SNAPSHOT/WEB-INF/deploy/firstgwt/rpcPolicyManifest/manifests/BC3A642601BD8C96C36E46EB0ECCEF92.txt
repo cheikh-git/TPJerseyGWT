@@ -1,0 +1,2 @@
+serviceClass: fr.istic.client.GreetingService
+path: B33728F91178847C8EBD79FC847D501C.gwt.rpc
