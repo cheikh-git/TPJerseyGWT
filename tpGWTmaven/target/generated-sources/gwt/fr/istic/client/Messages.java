@@ -2,7 +2,7 @@ package fr.istic.client;
 
 /**
  * Interface to represent the messages contained in resource bundle:
- * 	/home/drame/workspace/tpGWTmaven/src/main/resources/fr/istic/client/Messages.properties'.
+ * 	/ws/14011107/tmp-git/TPJerseyGWT/tpGWTmaven/src/main/resources/fr/istic/client/Messages.properties'.
  */
 public interface Messages extends com.google.gwt.i18n.client.Messages {
   

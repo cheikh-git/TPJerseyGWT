@@ -41,16 +41,16 @@ public class GreetingService_Proxy extends RemoteServiceProxy implements fr.isti
     }
   }
   
-  public void createPerson(java.lang.String p0, java.lang.String p1, java.lang.String p2, com.google.gwt.user.client.rpc.AsyncCallback callback) {
+  public void createPerson(java.lang.String name, java.lang.String prenom, java.lang.String mail, com.google.gwt.user.client.rpc.AsyncCallback callback) {
     com.google.gwt.user.client.rpc.impl.RemoteServiceProxy.ServiceHelper helper = new com.google.gwt.user.client.rpc.impl.RemoteServiceProxy.ServiceHelper("GreetingService_Proxy", "createPerson");
     try {
       SerializationStreamWriter streamWriter = helper.start(REMOTE_SERVICE_INTERFACE_NAME, 3);
       streamWriter.writeString("java.lang.String/2004016611");
       streamWriter.writeString("java.lang.String/2004016611");
       streamWriter.writeString("java.lang.String/2004016611");
-      streamWriter.writeString(p0);
-      streamWriter.writeString(p1);
-      streamWriter.writeString(p2);
+      streamWriter.writeString(name);
+      streamWriter.writeString(prenom);
+      streamWriter.writeString(mail);
       helper.finish(callback, ResponseReader.VOID);
     } catch (SerializationException ex) {
       callback.onFailure(ex);
@@ -67,12 +67,12 @@ public class GreetingService_Proxy extends RemoteServiceProxy implements fr.isti
     }
   }
   
-  public void greetServer(java.lang.String p0, com.google.gwt.user.client.rpc.AsyncCallback callback) {
+  public void greetServer(java.lang.String name, com.google.gwt.user.client.rpc.AsyncCallback callback) {
     com.google.gwt.user.client.rpc.impl.RemoteServiceProxy.ServiceHelper helper = new com.google.gwt.user.client.rpc.impl.RemoteServiceProxy.ServiceHelper("GreetingService_Proxy", "greetServer");
     try {
       SerializationStreamWriter streamWriter = helper.start(REMOTE_SERVICE_INTERFACE_NAME, 1);
       streamWriter.writeString("java.lang.String/2004016611");
-      streamWriter.writeString(p0);
+      streamWriter.writeString(name);
       helper.finish(callback, ResponseReader.STRING);
     } catch (SerializationException ex) {
       callback.onFailure(ex);
